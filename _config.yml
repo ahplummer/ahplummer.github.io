@@ -1,1 +1,26 @@
 theme: jekyll-theme-hacker
+title: "@ahplummer"
+description: "^^^ meta information about one labeled such"
+show_downloads: false
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Allen Plummer"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Allen Plummer"
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Allen Plummer"
