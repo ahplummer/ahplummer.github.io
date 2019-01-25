@@ -11,6 +11,7 @@ Some other places I'm at:
 * [Twitter](https://twitter.com/ahplummer)
 * [LinkedIn](https://www.linkedin.com/in/aplummer/)
 * [Github](https://github.com/ahplummer)
+* [Keybase](https://keybase.io/ahplummer)
 
 Some blog entries located on this site:
 <ul>
