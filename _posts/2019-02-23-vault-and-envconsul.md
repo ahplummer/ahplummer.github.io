@@ -26,15 +26,22 @@ Note: When seeing a prompt, `$` is understood to be the host system, `#` is unde
 This tuturial will have several outcomes:
 
 1) You will see how envconsul interacts between Vault and a running app that requires environment variables containing secrets.  
+   
 2) You will be exposed to concepts such as Vault initialization, unsealing, ACL additions, secrets concepts, and token authentication.
+   
 3) You will have two running containers - one running Vault, one running envconsul with a test script.  These containers will be orchestrated and run by `docker-compose`.
+   
 4) The Vault file store will be stored in a directory on the host machine, to prevent data loss of secrets.
+   
 5) You will see secrets that originate with Vault being passed to a child process using `envconsul`.  
 
 # To run from the repos
 
 1) Get your IP loaded up in `env` file.
-2) The command `$ docker-compose up -d --build` will build and run the containers.  You'll then want to ensure that Vault is init'd and unsealed, configured as instructed below.  You can then execute `docker-compose exec envconsul envconsul -upcase -config=/envconsul/config.json testapp.sh`, or simply `env` at the end (instead of testapp.sh).
+   
+2) The command `$ docker-compose up -d --build` will build and run the containers.  You'll then want to ensure that Vault is init'd and unsealed, configured as instructed below. 
+
+3) You can then execute `docker-compose exec envconsul envconsul -upcase -config=/envconsul/config.json testapp.sh`, or simply `env` at the end (instead of testapp.sh).
 
 # Manual Project Setup for this tutorial
 
