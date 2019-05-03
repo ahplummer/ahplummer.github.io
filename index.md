@@ -23,7 +23,7 @@ Some blog entries located on this site:
 </ul>
    </div>
    <div style="float:right;">
-<a class="twitter-timeline" data-width="300" data-height="1000" data-theme="dark" href="https://twitter.com/ahplummer?ref_src=twsrc%5Etfw">Tweets by ahplummer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/ahplummer?ref_src=twsrc%5Etfw">Tweets by ahplummer</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
    </div>
 </div>
 <div style="clear:both"></div>
